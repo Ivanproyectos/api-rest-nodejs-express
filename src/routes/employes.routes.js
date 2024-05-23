@@ -6,7 +6,7 @@ const router = Router()
 router.get('/api/employes', getEmployes)
 router.get('/api/employes/:id', getByIdEmploye)
 router.post('/api/employes', postEmployes)
-router.put('/api/employes', updateEmployes)
+router.put('/api/employes/:id', updateEmployes)
 router.delete('/api/employes/:id', deleteEmployes)
 
 export default router
